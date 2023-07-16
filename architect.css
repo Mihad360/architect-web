@@ -199,9 +199,15 @@ main{
     .teamcontent{
         padding: 30px;
     }
-
+    .factcontainer{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .fact{
+        margin-right: 60px;
+    }
 }
-@media screen and (min-width: 576px) and (max-width: 960px) {
+@media screen and (min-width: 577px) and (max-width: 960px) {
     nav{
         flex-direction: column;
     }
@@ -216,5 +222,17 @@ main{
     }
     .teamcontent{
         padding: 40px;
+    }
+    .fact{
+        padding-right: 60px;
+    }
+    .factcontainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        
+    }
+    .facthead, .factpara{
+        text-align: center;
     }
 }
