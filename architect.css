@@ -99,3 +99,58 @@ nav a{
         padding: 30px 80px;
     }
 }
+/* main style  */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.teamcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.teamimg{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+.teamhead{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.teampara{
+    color: #727272;
+    font-weight: 500;
+    font-size: 16px;
+}
+.teambtn{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.teambtn:hover{
+    color: black;
+}
+.teamcontent{
+    /* padding-left: 100px; */
+}
+#hello{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+#hola{
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
