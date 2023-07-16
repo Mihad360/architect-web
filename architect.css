@@ -1,5 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+}  
   @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
 
 *{
     font-family: 'Work Sans', sans-serif;
 }  
+/* header section */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 30px 140px 30px 140px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navhead{
+    color: #131313;
+    /* text-align: center; */
+    font-size: 45px;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+}
+/* } */
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 20px;
+}
+/* banner style  */
+.banner{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.bannerpic{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.bannerhead{
+   color: #131313;
+   font-size: 64px;
+   font-weight: 700;
+   margin-top: 80px;
+}
+.bannerpara{
+    color: #727272;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.bannerbtn{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.bannerbtn:hover{
+    color: black;
+}
+@media screen and (max-width: 576px) {
+    header{
+        padding: 10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .navhead{
+        margin-bottom: 50px;
+    }
+    nav ul{
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    nav{
+        flex-direction: column;
+    }
+    .navhead{
+        margin-bottom: 50px;
+    }
+    header{
+        padding: 30px 80px;
+    }
+}
