@@ -328,7 +328,8 @@ main{
         /* top: 10px;
         left: 1px; */
         position: static;
-        margin-left: 15px;
+        margin-left: 20px;
+        width: 60%;
     }
     .featurecontent{
         margin: 20px;
